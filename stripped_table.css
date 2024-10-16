@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+
+#styledTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#styledTable th {
+    padding: 20px 0;
+    text-align: left;
+    color: white;
+    background-color: #b22222;
+    border: 1px solid grey;
+}
+
+#styledTable td {
+    padding: 8px;
+    border: 1px solid grey;
+}
+
+#styledTable tbody tr:hover {
+    background-color: burlywood;
+}
+
+#styledTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
